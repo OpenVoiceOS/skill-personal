@@ -17,7 +17,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     package_dir={"ovos_skill_personal": ""},
-    package_data={'ovos_skill_personal': ['locale/*', "ui/*", "skill/*"]},
+    package_data={'ovos_skill_personal': ["dialog/*", "vocab/*"]},
     packages=['ovos_skill_personal'],
     include_package_data=True,
     install_requires=["ovos-plugin-manager>=0.0.2"],
