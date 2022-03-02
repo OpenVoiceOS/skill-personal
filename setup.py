@@ -51,7 +51,7 @@ PLUGIN_ENTRY_POINT = 'skill-personal.OpenVoiceOS=ovos_skill_personal:PersonalSki
 
 setup(
     # this is the package name that goes on pip
-    name='skill-personal',
+    name='ovos-skill-personal',
     version=get_version(),
     description='OVOS personal skill plugin',
     url='https://github.com/OpenVoiceOS/skill-personal',
