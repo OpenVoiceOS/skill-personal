@@ -22,7 +22,7 @@ allow_unknown = False
 allow_unlicense = True
 allow_ambiguous = False
 
-pkg_name = "ovos-skill-skill-personal"
+pkg_name = "ovos-skill-personal"
 
 
 class TestLicensing(unittest.TestCase):
