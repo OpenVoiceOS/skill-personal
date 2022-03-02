@@ -44,7 +44,7 @@ def required(requirements_file):
 
 
 # skill_id=package_name:SkillClass
-PLUGIN_ENTRY_POINT = 'skill-personal.OpenVoiceOS=ovos_skill_personal:PersonalSkill'
+PLUGIN_ENTRY_POINT = 'ovos-skill-personal.OpenVoiceOS=ovos_skill_personal:PersonalSkill'
 # in this case the skill_id is defined to purposefully replace the mycroft version of the skill,
 # or rather to be replaced by it in case it is present. all skill directories take precedence over plugin skills
 
@@ -54,7 +54,7 @@ setup(
     name='ovos-skill-personal',
     version=get_version(),
     description='OVOS personal skill plugin',
-    url='https://github.com/OpenVoiceOS/skill-personal',
+    url='https://github.com/OpenVoiceOS/ovos-skill-personal',
     author='JarbasAi',
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',

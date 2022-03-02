@@ -8,7 +8,7 @@ from ovos_utils.bracket_expansion import expand_parentheses, expand_options
 
 
 branch = "dev"
-repo = "skill-personal"
+repo = "ovos-skill-personal"
 author = "OpenVoiceOS"
 
 url = f"https://github.com/{author}/{repo}@{branch}"

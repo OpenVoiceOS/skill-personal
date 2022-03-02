@@ -6,12 +6,12 @@ from shutil import rmtree
 from ovos_skills_manager import SkillEntry
 
 branch = "dev"
-url = f"https://github.com/OpenVoiceOS/skill-personal@{branch}"
+url = f"https://github.com/OpenVoiceOS/ovos-skill-personal@{branch}"
 
 class TestOSM(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.skill_id = "skill-personal.OpenVoiceOS"
+        self.skill_id = "ovos-skill-personal.OpenVoiceOS"
 
     def test_osm_install(self):
         skill = SkillEntry.from_github_url(url)
