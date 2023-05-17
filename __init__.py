@@ -1,5 +1,5 @@
 from ovos_workshop.skills import OVOSSkill
-from mycroft.skills import intent_handler
+from ovos_workshop.decorators import intent_handler
 from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils import classproperty
 
@@ -48,6 +48,3 @@ class PersonalSkill(OVOSSkill):
     def handle_do_you_dream(self, message):
         self.speak_dialog("dream")
 
-
-def create_skill():
-    return PersonalSkill()
