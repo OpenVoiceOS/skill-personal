@@ -1,7 +1,7 @@
-from ovos_workshop.skills import OVOSSkill
-from mycroft.skills import intent_handler
-from ovos_utils.process_utils import RuntimeRequirements
 from ovos_utils import classproperty
+from ovos_utils.process_utils import RuntimeRequirements
+from ovos_workshop.decorators import intent_handler
+from ovos_workshop.skills import OVOSSkill
 
 
 class PersonalSkill(OVOSSkill):
@@ -39,15 +39,3 @@ class PersonalSkill(OVOSSkill):
     @intent_handler("WhatAreYou.intent")
     def handle_what_are_you_intent(self, message):
         self.speak_dialog("what.am.i")
-
-    @intent_handler("DoYouRhyme.intent")
-    def handle_do_you_rhyme(self, message):
-        self.speak_dialog("tell.a.rhyme")
-
-    @intent_handler("DoYouDream.intent")
-    def handle_do_you_dream(self, message):
-        self.speak_dialog("dream")
-
-
-def create_skill():
-    return PersonalSkill()
