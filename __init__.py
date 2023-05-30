@@ -24,7 +24,8 @@ class PersonalSkill(OVOSSkill):
 
     @intent_handler("WhereWereYouBorn.intent")
     def handle_where_were_you_born_intent(self, message):
-        self.speak_dialog("where.was.i.born")
+        self.speak_dialog("where.was.i.born",
+                          {"location": self.settings.get("location_of_birth", "Lawrence Kansas")})
 
     @intent_handler("WhoMadeYou.intent")
     def handle_who_made_you_intent(self, message):
