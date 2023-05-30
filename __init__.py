@@ -19,7 +19,8 @@ class PersonalSkill(OVOSSkill):
 
     @intent_handler("WhenWereYouBorn.intent")
     def handle_when_were_you_born_intent(self, message):
-        self.speak_dialog("when.was.i.born")
+        self.speak_dialog("when.was.i.born",
+                          {"year": self.settings.get("year_of_birth", 2015)})
 
     @intent_handler("WhereWereYouBorn.intent")
     def handle_where_were_you_born_intent(self, message):
