@@ -29,7 +29,8 @@ class PersonalSkill(OVOSSkill):
 
     @intent_handler("WhoMadeYou.intent")
     def handle_who_made_you_intent(self, message):
-        self.speak_dialog("who.made.me")
+        self.speak_dialog("who.made.me",
+                          {"creator": self.settings.get("creator", "OpenVoiceOS")})
 
     @intent_handler("WhoAreYou.intent")
     def handle_who_are_you_intent(self, message):
