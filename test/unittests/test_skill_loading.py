@@ -6,7 +6,7 @@ from ovos_utils.bracket_expansion import expand_parentheses, expand_options
 
 from adapt.engine import IntentDeterminationEngine
 from adapt.intent import IntentBuilder
-from ovos_skill_personal import PersonalSkill, create_skill
+from ovos_skill_personal import PersonalSkill
 from ovos_plugin_manager.skills import find_skill_plugins
 from ovos_utils.messagebus import FakeBus
 from mycroft.skills.skill_loader import PluginSkillLoader, SkillLoader
@@ -21,13 +21,6 @@ class TestSkillLoading(unittest.TestCase):
     def test_from_class(self):
         bus = FakeBus()
         skill = PersonalSkill()
-        skill._startup(bus, self.skill_id)
-        self.assertEqual(skill.bus, bus)
-        self.assertEqual(skill.skill_id, self.skill_id)
-
-    def test_from_func(self):
-        bus = FakeBus()
-        skill = create_skill()
         skill._startup(bus, self.skill_id)
         self.assertEqual(skill.bus, bus)
         self.assertEqual(skill.skill_id, self.skill_id)
