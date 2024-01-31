@@ -1,0 +1,29 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Personal Skill Settings",
+                "fields": [
+                    {
+                        "name": "year_of_birth",
+                        "type": "text",
+                        "label": "Year of Assistant Birth",
+                        "value": "2015"
+                    },
+                    {
+                        "name": "location_of_birth",
+                        "type": "text",
+                        "label": "Location of Assistant Birth",
+                        "value": "Lawrence Kansas"
+                    },
+                  {
+                        "name": "creator",
+                        "type": "text",
+                        "label": "Assistant Creator",
+                        "value": "OpenVoiceOS"
+                    }
+                ]
+            }
+        ]
+    }
+}
