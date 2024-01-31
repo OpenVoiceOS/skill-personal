@@ -19,22 +19,22 @@ class PersonalSkill(OVOSSkill):
                                    no_gui_fallback=True)
 
     @intent_handler("WhenWereYouBorn.intent")
-    def handle_when_were_you_born_intent(self, _: Message):
+    def handle_when_were_you_born_intent(self, message: Message):
         self.speak_dialog("when.was.i.born",
                           {"year": self.settings.get("year_of_birth", 2015)})
 
     @intent_handler("WhereWereYouBorn.intent")
-    def handle_where_were_you_born_intent(self, _: Message):
+    def handle_where_were_you_born_intent(self, message: Message):
         self.speak_dialog("where.was.i.born",
                           {"location": self.settings.get("location_of_birth", "Lawrence Kansas")})
 
     @intent_handler("WhoMadeYou.intent")
-    def handle_who_made_you_intent(self, _: Message):
+    def handle_who_made_you_intent(self, message: Message):
         self.speak_dialog("who.made.me",
                           {"creator": self.settings.get("creator", "OpenVoiceOS")})
 
     @intent_handler("WhoAreYou.intent")
-    def handle_who_are_you_intent(self, _: Message):
+    def handle_who_are_you_intent(self, message: Message):
         assistant_name = self.settings.get("assistant_name")
         if not assistant_name:
             assistant_name = self._parse_name_from_ww(
@@ -52,5 +52,5 @@ class PersonalSkill(OVOSSkill):
         return name
 
     @intent_handler("WhatAreYou.intent")
-    def handle_what_are_you_intent(self, _: Message):
+    def handle_what_are_you_intent(self, message: Message):
         self.speak_dialog("what.am.i")

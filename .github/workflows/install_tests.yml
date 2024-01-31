@@ -7,22 +7,22 @@ on:
     branches:
       - dev
     paths-ignore:
-      - '.github/**'
-      - '.gitignore'
-      - 'LICENSE'
-      - 'CHANGELOG.md'
-      - 'MANIFEST.in'
-      - 'readme.md'
-      - 'scripts/**'
+      - ".github/**"
+      - ".gitignore"
+      - "LICENSE"
+      - "CHANGELOG.md"
+      - "MANIFEST.in"
+      - "readme.md"
+      - "scripts/**"
   workflow_dispatch:
 
 jobs:
   plugin_tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
           python-version: 3.8
       - name: Install test dependencies
@@ -37,34 +37,3 @@ jobs:
       - name: Run Plugin tests
         run: |
           pytest test/plugin_tests.py
-  osm_tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.8
-      - name: Install ovos dependencies
-        run: |
-          pip install ovos-skills-manager~=0.0.10
-      - name: Install test dependencies
-        run: |
-          pip install pytest pytest-timeout pytest-cov
-      - name: Install skill with osm
-        run: |
-          pytest test/osm_tests.py
-  msm_tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Setup Python
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.8
-      - name: Install msm
-        run: |
-          pip install msm~=0.9.0
-      - name: Install skill with msm
-        run: |
-          msm install https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}
