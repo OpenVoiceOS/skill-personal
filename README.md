@@ -1,5 +1,5 @@
 # <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/smile-wink.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Assistant's Background
-![image](https://img.shields.io/pypi/pyversions/:packageName)
+![Supported Python Versions](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mikejgray/.github/main/python-versions.json)
 
 Learn history and personality of the assistant
 
