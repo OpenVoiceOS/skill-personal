@@ -21,18 +21,16 @@ jobs:
         python-version: ["3.8", "3.9", "3.10", "3.11"]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install skill
         run: |
           pip install .
-      - uses: pypa/gh-action-pip-audit@v1.0.0
+      - uses: pypa/gh-action-pip-audit@v1.0.8
         with:
           # Ignore setuptools vulnerability we can't do much about
-          # Ignore numpy vulnerability affecting latest version for Py3.7
           ignore-vulns: |
             GHSA-r9hx-vwmv-q579
-            GHSA-fpfv-jqm9-f5jm
