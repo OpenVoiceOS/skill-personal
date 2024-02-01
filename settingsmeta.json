@@ -16,11 +16,17 @@
                         "label": "Location of Assistant Birth",
                         "value": "Lawrence Kansas"
                     },
-                  {
+                    {
                         "name": "creator",
                         "type": "text",
                         "label": "Assistant Creator",
                         "value": "OpenVoiceOS"
+                    },
+                    {
+                        "name": "assistant_name",
+                        "type": "text",
+                        "label": "Assistant Name (defaults to wakeword)",
+                        "value": "Mycroft"
                     }
                 ]
             }

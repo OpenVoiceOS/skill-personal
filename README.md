@@ -1,4 +1,6 @@
 # <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/smile-wink.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Assistant's Background
+![image](https://img.shields.io/pypi/pyversions/:packageName)
+
 Learn history and personality of the assistant
 
 Example settings.json:
@@ -7,7 +9,8 @@ Example settings.json:
 {
   "year_of_birth": 2015,
   "location_of_birth": "Lawrence Kansas",
-  "creator": "OpenVoiceOS"
+  "creator": "OpenVoiceOS",
+  "assistant_name": "Mycroft"
 }
 ```
 
