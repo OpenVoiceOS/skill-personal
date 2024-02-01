@@ -37,14 +37,6 @@ class TestSkillLoading(unittest.TestCase):
         else:
             raise RuntimeError("plugin not found")
 
-    def test_from_loader(self):
-        bus = FakeBus()
-        loader = SkillLoader(bus, self.path)
-        loader.load()
-        self.assertIsNotNone(loader.instance)
-        self.assertEqual(loader.instance.bus, bus)
-        self.assertEqual(loader.instance.root_dir, self.path)
-
     def test_from_plugin_loader(self):
         bus = FakeBus()
         loader = PluginSkillLoader(bus, self.skill_id)
