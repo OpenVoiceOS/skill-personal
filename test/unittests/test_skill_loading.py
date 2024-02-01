@@ -41,6 +41,7 @@ class TestSkillLoading(unittest.TestCase):
         bus = FakeBus()
         loader = SkillLoader(bus, self.path)
         loader.load()
+        self.assertIsNotNone(loader.instance)
         self.assertEqual(loader.instance.bus, bus)
         self.assertEqual(loader.instance.root_dir, self.path)
 
