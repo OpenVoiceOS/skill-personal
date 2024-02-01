@@ -31,6 +31,9 @@ jobs:
           pip install .
       - uses: pypa/gh-action-pip-audit@v1.0.8
         with:
-          # Ignore setuptools vulnerability we can't do much about
+          # Ignore setuptools vulnerabilities we can't do much about
+          # Ignore pip Mercurial vulnerability (we don't use Mercurial)
           ignore-vulns: |
             GHSA-r9hx-vwmv-q579
+            PYSEC-2022-43012
+            PYSEC-2023-228
