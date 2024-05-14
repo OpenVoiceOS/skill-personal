@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/HEAD)
+## [V0.0.4a9](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/V0.0.4a9) (2024-05-13)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a8...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a8...V0.0.4a9)
 
 **Merged pull requests:**
 
