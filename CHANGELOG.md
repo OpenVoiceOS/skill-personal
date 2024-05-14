@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a10...HEAD)
+
+**Merged pull requests:**
+
+- ca-es / fix dialogs not using {creator} variable [\#19](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/19) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [V0.0.4a10](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/V0.0.4a10) (2024-05-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a9...V0.0.4a10)
+
 ## [V0.0.4a9](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/V0.0.4a9) (2024-05-13)
 
 [Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a8...V0.0.4a9)
