@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: 3.9
       - name: Run script if merged by gitlocalize-app
-        if: github.event_name == 'push' && github.event.pull_request.merged && github.event.pull_request.head.user.login == 'gitlocalize-app'
+        if: github.event_name == 'push' && github.event.pull_request.merged && github.actor == 'gitlocalize-app'
         run: |
           python scripts/sync_translations.py
       - name: Commit to dev
