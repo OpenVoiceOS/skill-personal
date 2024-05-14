@@ -1,0 +1,22 @@
+{
+    "WhenWereYouBorn.intent": [
+        "quando sei nato",
+        "quando sei stato creato"
+    ],
+    "WhereWereYouBorn.intent": [
+        "dove sei nato",
+        "dove sei stato creato"
+    ],
+    "WhoMadeYou.intent": [
+        "chi ti ha fatto",
+        "da chi sei stato fatto",
+        "chi ti ha creato",
+        "chi ti ha costruito"
+    ],
+    "WhatAreYou.intent": [
+        "che cosa sei"
+    ],
+    "WhoAreYou.intent": [
+        "chi sei"
+    ]
+}

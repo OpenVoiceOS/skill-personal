@@ -1,0 +1,25 @@
+{
+    "WhenWereYouBorn.intent": [
+        "quand es-tu n\u00e9",
+        "quand (as-tu \u00e9t\u00e9|est-ce que tu as \u00e9t\u00e9) (cr\u00e9\u00e9|con\u00e7u|fabriqu\u00e9|pens\u00e9|fait|assembl\u00e9)",
+        "quand as-tu vu le jour",
+        "quand as-tu parl\u00e9 pour la premi\u00e8re fois"
+    ],
+    "WhereWereYouBorn.intent": [
+        "o\u00f9 (est-ce que tu es|es-tu) n\u00e9",
+        "o\u00f9 as-tu \u00e9t\u00e9 (cr\u00e9\u00e9|con\u00e7u|frabriqu\u00e9|pens\u00e9|fait)"
+    ],
+    "WhoMadeYou.intent": [
+        "qui t'a (con\u00e7u|cr\u00e9\u00e9|fabriqu\u00e9|pens\u00e9|fait)",
+        "par qui as-tu \u00e9t\u00e9 (con\u00e7u|cr\u00e9\u00e9|fabriqu\u00e9|pens\u00e9|fait)",
+        "qui est ton (concepteur|cr\u00e9ateur|fabriquant)"
+    ],
+    "WhatAreYou.intent": [
+        "qu'es-tu (donc|)",
+        "qu'est-ce que tu es"
+    ],
+    "WhoAreYou.intent": [
+        "qui es-tu",
+        "tu es qui"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "WhenWereYouBorn.intent": [
+        "quan vas n\u00e9ixer",
+        "quan et van crear"
+    ],
+    "WhereWereYouBorn.intent": [
+        "on vas n\u00e9ixer",
+        "on te van crear"
+    ],
+    "WhoMadeYou.intent": [
+        "qui t'ha fet",
+        "qui te va fer",
+        "qui te va crear",
+        "qui t'ha fabricat"
+    ],
+    "WhatAreYou.intent": [
+        "qu\u00e8 eres"
+    ],
+    "WhoAreYou.intent": [
+        "qui ets"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "WhenWereYouBorn.intent": [
+        "hvorn\u00e5r er du f\u00f8dt",
+        "hvorn\u00e5r blev du skabt"
+    ],
+    "WhereWereYouBorn.intent": [
+        "hvor er du f\u00f8dt",
+        "hvor er du skabt"
+    ],
+    "WhoMadeYou.intent": [
+        "hvem har lavet dig",
+        "hvem er du skabt af",
+        "hvem skabte dig",
+        "hvem byggede dig"
+    ],
+    "WhatAreYou.intent": [
+        "hvad er du"
+    ],
+    "WhoAreYou.intent": [
+        "hvem er du"
+    ]
+}
