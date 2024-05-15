@@ -5,18 +5,18 @@
   ],
   "who.am.i.dialog": [
     "Meu nome é {name} e eu sou um assistente pessoal inteligente",
-    "Eu sou {name}, uma inteligência artificial de codigo aberto"
+    "Eu sou {name}, uma inteligência artificial de código aberto."
   ],
   "where.was.i.born.dialog": [
-    "em {location}"
+    "Eu nasci em {location}"
   ],
   "what.am.i.dialog": [
     "Eu sou uma inteligência artificial de código aberto.",
-    "Eu sou um software inteligente para se comunicar com máquinas"
+    "Eu sou um software inteligente para comunicação com (máquinas|tecnologia)"
   ],
   "when.was.i.born.dialog": [
     "Eu nasci em {year}.",
-    "{year} é quando nasci.",
-    "em {year}"
+    "Comecei a falar em {year}.",
+    "Eu nasci no ano {year}."
   ]
 }
