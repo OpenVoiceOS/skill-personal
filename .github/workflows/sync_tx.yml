@@ -19,6 +19,10 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.9
+          
+      - name: Debug payload
+        run: echo "${{ toJson(github.event) }}"
+
       - name: Run script if merged by gitlocalize-app
         if: github.event_name == 'push' && github.event.pull_request.merged && github.actor == 'gitlocalize-app'
         run: |
