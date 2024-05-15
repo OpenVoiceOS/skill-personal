@@ -1,22 +1,20 @@
 {
-    "WhenWereYouBorn.intent": [
-        "quando voc\u00ea nasceu",
-        "Quando voc\u00ea foi criado?"
-    ],
-    "WhereWereYouBorn.intent": [
-        "onde voc\u00ea nasceu",
-        "onde voc\u00ea foi criado"
-    ],
-    "WhoMadeYou.intent": [
-        "Quem te criou",
-        "Quem fez voc\u00ea",
-        "Quem voc\u00ea foi feito por",
-        "Quem construiu voc\u00ea"
-    ],
-    "WhatAreYou.intent": [
-        "o que voc\u00ea est\u00e1"
-    ],
-    "WhoAreYou.intent": [
-        "Quem \u00e9 Voc\u00ea"
-    ]
+  "WhenWereYouBorn.intent": [
+    "Quando é que (você nasceu|tu nasceste)?",
+    "Quando é que (você foi|tu foste) (criado|programado|inventado)?"
+  ],
+  "WhereWereYouBorn.intent": [
+    "Onde é que (você nasceu|tu nasceste)?",
+    "Onde é que (você foi|tu foste) (criado|feito|programado|inventado)?"
+  ],
+  "WhoMadeYou.intent": [
+    "Quem é que (o|a|te) criou?",
+    "Quem é que (o|a|te)(criou|fez|programou|inventou)?"
+  ],
+  "WhatAreYou.intent": [
+    "O que é (tu|você) (és|é)?"
+  ],
+  "WhoAreYou.intent": [
+    "Quem (és|é) (tu|você)?"
+  ]
 }
