@@ -20,27 +20,35 @@ for lang in os.listdir(tx):
         with open(intents) as f:
             data = json.load(f)
         for fid, samples in data.items():
-            with open(f"{locale}/{lang}/{fid}", "w") as f:
-                f.write("\n".join(sorted(samples)))
+            if samples:
+                samples = [s for s in samples if s]  # s may be None
+                with open(f"{locale}/{lang}/{fid}", "w") as f:
+                    f.write("\n".join(sorted(samples)))
 
     if os.path.isfile(dialogs):
         with open(dialogs) as f:
             data = json.load(f)
         for fid, samples in data.items():
-            with open(f"{locale}/{lang}/{fid}", "w") as f:
-                f.write("\n".join(sorted(samples)))
+            if samples:
+                samples = [s for s in samples if s]  # s may be None
+                with open(f"{locale}/{lang}/{fid}", "w") as f:
+                    f.write("\n".join(sorted(samples)))
 
     if os.path.isfile(vocs):
         with open(vocs) as f:
             data = json.load(f)
         for fid, samples in data.items():
-            with open(f"{locale}/{lang}/{fid}", "w") as f:
-                f.write("\n".join(sorted(samples)))
+            if samples:
+                samples = [s for s in samples if s]  # s may be None
+                with open(f"{locale}/{lang}/{fid}", "w") as f:
+                    f.write("\n".join(sorted(samples)))
 
     if os.path.isfile(regexes):
         with open(regexes) as f:
             data = json.load(f)
         for fid, samples in data.items():
-            with open(f"{locale}/{lang}/{fid}", "w") as f:
-                f.write("\n".join(sorted(samples)))
+            if samples:
+                samples = [s for s in samples if s]  # s may be None
+                with open(f"{locale}/{lang}/{fid}", "w") as f:
+                    f.write("\n".join(sorted(samples)))
 
