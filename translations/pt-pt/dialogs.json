@@ -17,6 +17,6 @@
   "when.was.i.born.dialog": [
     "Eu nasci em {year}.",
     "{year} é quando nasci.",
-    null
+    "em {year}"
   ]
 }
