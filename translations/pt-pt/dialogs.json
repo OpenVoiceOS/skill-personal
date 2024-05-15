@@ -5,7 +5,7 @@
   ],
   "who.am.i.dialog": [
     "Meu nome é {name} e eu sou um assistente pessoal inteligente",
-    "Eu sou {NAME}, uma fonte aberta a.i."
+    "Eu sou {name}, uma inteligência artificial de codigo aberto"
   ],
   "where.was.i.born.dialog": [
     "em {location}"
