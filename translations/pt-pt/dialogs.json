@@ -1,7 +1,7 @@
 {
   "who.made.me.dialog": [
-    "Todos no {creator} comunidade e equipe.",
-    "O maravilhoso {creator} comunidade e equipe."
+    "A maravilhosa comunidade {creator} e equipa.",
+    "Todos os membros da comunidade {creator} e equipa."
   ],
   "who.am.i.dialog": [
     "Meu nome é {name} e eu sou um assistente pessoal inteligente",
