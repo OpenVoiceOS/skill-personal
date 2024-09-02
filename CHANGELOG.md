@@ -2,7 +2,23 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a10...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a11...HEAD)
+
+**Merged pull requests:**
+
+- fr-fr/fix entity [\#28](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/28) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- fr-fr/improve intents [\#27](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/27) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- pt-pt/update dialogs [\#26](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/26) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- more pt-pt updates [\#25](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/25) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- pt-pt/more tests [\#24](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/24) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- pt-pt/continued [\#23](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/23) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- pt-pt / fix {entity} names [\#22](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/22) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- missing space in pt-pt [\#21](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/21) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- pt-pt review [\#20](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/20) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+
+## [V0.0.4a11](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/V0.0.4a11) (2024-05-14)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/V0.0.4a10...V0.0.4a11)
 
 **Merged pull requests:**
 
