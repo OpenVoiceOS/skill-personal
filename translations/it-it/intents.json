@@ -1,22 +1,20 @@
 {
-    "WhenWereYouBorn.intent": [
-        "quando sei nato",
-        "quando sei stato creato"
-    ],
-    "WhereWereYouBorn.intent": [
-        "dove sei nato",
-        "dove sei stato creato"
-    ],
-    "WhoMadeYou.intent": [
-        "chi ti ha fatto",
-        "da chi sei stato fatto",
-        "chi ti ha creato",
-        "chi ti ha costruito"
-    ],
-    "WhatAreYou.intent": [
-        "che cosa sei"
-    ],
-    "WhoAreYou.intent": [
-        "chi sei"
-    ]
+  "WhenWereYouBorn.intent": [
+    "quando sei (nato|nata)",
+    "quando sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata)"
+  ],
+  "WhereWereYouBorn.intent": [
+    "dove sei (nato|nata)",
+    "dove sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata)"
+  ],
+  "WhoMadeYou.intent": [
+    "chi ti ha (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata|costruito|costruita)",
+    "da chi sei (stato|stata) (creato|creata|fatto|fatta|programmato|programmata|progettato|progettata|inventato|inventata|costruito|costruita)"
+  ],
+  "WhatAreYou.intent": [
+    "che cosa sei"
+  ],
+  "WhoAreYou.intent": [
+    "chi sei"
+  ]
 }
