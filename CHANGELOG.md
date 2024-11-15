@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6a2](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/0.1.6a2) (2024-11-15)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/0.1.6a1...0.1.6a2)
+
+**Merged pull requests:**
+
+- fix; skilljson [\#41](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/41) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.6a1](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/0.1.6a1) (2024-11-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/0.1.5...0.1.6a1)
