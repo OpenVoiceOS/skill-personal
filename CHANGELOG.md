@@ -1,12 +1,20 @@
 # Changelog
 
-## [0.1.5a1](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/0.1.5a1) (2024-10-31)
+## [0.1.6a2](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/0.1.6a2) (2024-11-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/0.1.4...0.1.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/0.1.6a1...0.1.6a2)
 
 **Merged pull requests:**
 
-- fix:allow workshop 3.0.0 [\#37](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/37) ([JarbasAl](https://github.com/JarbasAl))
+- fix; skilljson [\#41](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/41) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.6a1](https://github.com/OpenVoiceOS/skill-ovos-personal/tree/0.1.6a1) (2024-11-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-personal/compare/0.1.5...0.1.6a1)
+
+**Merged pull requests:**
+
+- da-dk/translate [\#39](https://github.com/OpenVoiceOS/skill-ovos-personal/pull/39) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
