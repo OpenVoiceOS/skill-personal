@@ -17,6 +17,6 @@
   "when.was.i.born.dialog": [
     "Vaig néixer el {year}.",
     "El {year} és quan vaig néixer.",
-    null
+    "Vaig néixer el {any}."
   ]
 }
