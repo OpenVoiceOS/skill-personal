@@ -1,20 +1,18 @@
 {
     "WhenWereYouBorn.intent": [
-        "cando naciches",
-        "cando te crearon"
+        "cando te (crearon|fabricaron|programaron|inventaron)",
+        "cando naciches"
     ],
     "WhereWereYouBorn.intent": [
-        "onde naciches",
-        "onde te criaches"
+        "onde te (crearon|fabricaron|programaron|inventaron)",
+        "onde naciches"
     ],
     "WhoMadeYou.intent": [
-        "quen te fixo",
-        "por quen fuches feito",
-        "quen te creou",
-        "quen te construiu"
+        "quen te (creou|fabricou|programou|inventou|construíu)",
+        "quen foi o que te (creou|fabricou|programou|inventou)"
     ],
     "WhatAreYou.intent": [
-        "que es?"
+        "que es"
     ],
     "WhoAreYou.intent": [
         "quen es"
