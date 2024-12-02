@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.8a3](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.8a3) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8a2...0.1.8a3)
+
+**Merged pull requests:**
+
+- import basque translations [\#51](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/51) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.8a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.8a2) (2024-12-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8a1...0.1.8a2)
