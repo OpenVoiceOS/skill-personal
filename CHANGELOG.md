@@ -1,30 +1,13 @@
 # Changelog
 
-## [0.1.8a3](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.8a3) (2024-12-02)
+## [0.1.9a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.9a2) (2024-12-04)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8a2...0.1.8a3)
-
-**Merged pull requests:**
-
-- import basque translations [\#51](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/51) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.1.8a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.8a2) (2024-12-02)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8a1...0.1.8a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8...0.1.9a2)
 
 **Merged pull requests:**
 
-- import galician translations [\#49](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/49) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.1.8a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.8a1) (2024-11-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.7...0.1.8a1)
-
-**Merged pull requests:**
-
-- da-dk/translate [\#47](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/47) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Add Catalan translation [\#46](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/46) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
-- Add Catalan translation [\#45](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/45) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- de-de/translate [\#53](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/53) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
+- de-de/translate [\#48](https://github.com/OpenVoiceOS/ovos-skill-personal/pull/48) ([gitlocalize-app[bot]](https://github.com/apps/gitlocalize-app))
 
 
 
