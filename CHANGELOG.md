@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.1.9a1](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.9a1) (2024-12-04)
+## [0.1.9a2](https://github.com/OpenVoiceOS/ovos-skill-personal/tree/0.1.9a2) (2024-12-04)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8...0.1.9a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-personal/compare/0.1.8...0.1.9a2)
 
 **Merged pull requests:**
 
