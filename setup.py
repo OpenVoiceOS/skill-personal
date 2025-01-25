@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-from setuptools import setup
 import os
+from os import walk
+from os.path import abspath, dirname, join, isdir
 
+from setuptools import setup
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
 
@@ -41,6 +43,17 @@ def required(requirements_file):
                 if pkg.strip() and not pkg.startswith("#")]
 
 
+def find_resource_files():
+    resource_base_dirs = ("locale", "gui", "res")
+    base_dir = abspath(dirname(__file__))
+    package_data = ["*.json"]
+    for res in resource_base_dirs:
+        if isdir(join(base_dir, res)):
+            for (directory, _, files) in walk(join(base_dir, res)):
+                if files:
+                    package_data.append(join(directory.replace(base_dir, "").lstrip('/'), '*'))
+    return package_data
+
 
 # skill_id=package_name:SkillClass
 PLUGIN_ENTRY_POINT = 'ovos-skill-personal.OpenVoiceOS=ovos_skill_personal:PersonalSkill'
@@ -58,7 +71,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     package_dir={"ovos_skill_personal": ""},
-    package_data={'ovos_skill_personal': ["locale/*"]},
+    package_data={'ovos_skill_personal': find_resource_files()},
     packages=['ovos_skill_personal'],
     include_package_data=True,
     install_requires=required("requirements.txt"),
